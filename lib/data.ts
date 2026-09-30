@@ -4,8 +4,8 @@ export const personalInfo = {
   location: "Muscat, Oman",
   phone: "+968 97352219",
   email: "alsaltali69@gmail.com",
-  github: "https://github.com/slwili1",
-  linkedin: "https://www.linkedin.com/in/alsalt-alsalti-8713ba273/",
+  github: "https://github.com/slwlil1",
+  linkedin: "https://www.linkedin.com/in/al-salt-al-salti-8713ba273/",
 };
 
 export const experiences = [
@@ -66,36 +66,6 @@ export const certifications = [
   "Database Management System — Great Learning Academy",
 ];
 
-export const technicalSkills = [
-  "HTML & CSS",
-  "Java",
-  "Python",
-  "MySQL / SQLite",
-  "Streamlit",
-  "Pandas & NumPy",
-  "Scikit-learn",
-  "XGBoost",
-  "Facebook Prophet",
-  "Plotly",
-  "Web Development",
-  "System Analysis",
-  "MS Office",
-  "CRM Systems",
-  "Data Analysis",
-];
-
-export const coreSkills = [
-  "Problem-solving",
-  "Effective Communication",
-  "Time Management",
-  "Leadership",
-  "AI Communication",
-  "Sales & Customer Engagement",
-  "Cross-cultural Collaboration",
-  "Customer Service",
-  "Teamwork",
-];
-
 export const technicalSkillsWithLevels = [
   { name: "Python", level: 85, icon: "🐍", category: "Language" },
   { name: "Java", level: 75, icon: "☕", category: "Language" },
@@ -126,3 +96,6 @@ export const coreSkillsWithLevels = [
   { name: "Customer Service", level: 90, icon: "😊" },
   { name: "Teamwork", level: 92, icon: "🤜🤛" },
 ];
+
+export const technicalSkills = technicalSkillsWithLevels.map((s) => s.name);
+export const coreSkills = coreSkillsWithLevels.map((s) => s.name);

@@ -66,7 +66,7 @@ export default function Navbar() {
         </ul>
 
         <a
-          href="/cv/Alsalt_CV.pdf"
+          href="/cv/ALSALT_ALI_ALSALTI_CV.pdf"
           download
           className="hidden md:block px-5 py-2 rounded-full bg-accent hover:bg-accent-dark transition text-sm font-semibold"
         >

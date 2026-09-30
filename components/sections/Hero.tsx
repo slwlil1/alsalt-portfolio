@@ -80,7 +80,7 @@ export default function Hero() {
               View Projects
             </a>
             <a
-              href="/cv/Alsalt_CV.pdf"
+              href="/cv/ALSALT_ALI_ALSALTI_CV.pdf"
               download
               className="hero-cta px-8 py-3 rounded-full border border-accent text-accent hover:bg-accent hover:text-white transition font-semibold"
             >
