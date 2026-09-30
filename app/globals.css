@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+body {
+  background: #0A1628;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #FF7A18, #FFA05C, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glow-orange {
+  box-shadow: 0 0 40px rgba(255, 122, 24, 0.3);
+}
+
+/* Custom colors as utility classes */
+.text-accent { color: #FF7A18; }
+.text-accent-light { color: #FFA05C; }
+.bg-accent { background-color: #FF7A18; }
+.bg-accent-dark { background-color: #E55F00; }
+.border-accent { border-color: #FF7A18; }
+.bg-navy-900 { background-color: #0A1628; }
+.bg-navy-800 { background-color: #0F1F3A; }
+.bg-navy-700 { background-color: #152A4D; }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
